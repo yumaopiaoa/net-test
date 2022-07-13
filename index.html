@@ -14,7 +14,7 @@
 <script src="https://cdn.bootcdn.net/ajax/libs/axios/0.27.2/axios.min.js"></script>
 <script>
   document.getElementById("btn").onclick = function () {
-    axios.get("https://113.89.35.178:8806/test").then((res) => {
+    axios.get("http://113.89.35.178:8806/test").then((res) => {
       console.log("成功了", res);
     }).catch(err=>{
       console.log("失败了", err);
